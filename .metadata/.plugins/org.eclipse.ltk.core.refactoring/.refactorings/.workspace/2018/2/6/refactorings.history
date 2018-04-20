@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;qaf-example-project&apos;" deleteContents="false" description="Delete resource &apos;qaf-example-project&apos;" element1="/qaf-example-project" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1517817607769"/>&#x0A;<refactoring comment="Delete resource &apos;qaf-example-project&apos;" deleteContents="true" description="Delete resource &apos;qaf-example-project&apos;" element1="/qaf-example-project" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1518086107665"/>
+</session>

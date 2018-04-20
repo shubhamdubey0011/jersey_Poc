@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Multiple browsers" parallel="none" thread-count="4">
+
+	<test name="Chrome-Test" enabled="false">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+
+			<class name="com.selenium.TestFlipkart" />
+
+		</classes>
+
+	</test>
+	<test name="FireFox-Test" enabled="true">
+
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+
+			<class name="com.selenium.TestFlipkart" />
+
+		</classes>
+
+	</test>
+
+
+	<test name="IETest" enabled="false">
+
+		<parameter name="browser" value="IE" />
+
+		<classes>
+
+			<class name="com.selenium.TestFlipkart" />
+
+		</classes>
+
+	</test>
+
+	<test name="EdgeTest" enabled="false">
+
+		<parameter name="browser" value="ieEdge" />
+
+		<classes>
+
+			<class name="com.selenium.TestFlipkart" />
+
+		</classes>
+
+	</test>
+
+</suite>

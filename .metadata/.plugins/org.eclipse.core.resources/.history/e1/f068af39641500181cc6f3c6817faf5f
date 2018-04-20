@@ -1,0 +1,8 @@
+package Pages;
+
+import utils.UiElements;
+
+public class HomePage extends UiElements
+{
+
+}
